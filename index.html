@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page con Bootstrap</title>
+        <!-- Bootstrap Css-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        >
+        <!-- Line Awesome -->
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.png" alt="zx spectrum" style="width: 20%">
+                    ZX
+        Sinclair Spectrum (Bootstrap Website)
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- ml-auto-->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--header-->
+        <header class="main-header">
+            <div class="background-overlay" text-white py-5>
+                <div class="container">
+                    <div class="row">
+                        <div class="
+                col-md-6
+                text-center
+                justify-content-center
+                align-self-center
+              ">
+                            <h1>Sinclair ZX Spectrum</h1>
+                            <p>
+                                El Sinclair ZX Spectrum es un ordenador de 8 bits basado en el
+              microprocesador Zilog Z80A, fabricado por la compañía británica
+              Sinclair Research y lanzado al mercado el 23 de abril de 1982.
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                                Leer mas
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <img
+                                src="img/product.png"
+                                alt="spectrum"
+                                style="width: 100%"
+                                class="img-fluid d-none d-sm-block"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Newsletter -->
+        <section class="bg-dark text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control form-control-lg" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="email" class="form-control form-control-lg" placeholder="Ingrese su email">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary btn-lg btn-block">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Caracteristicas -->
+        <section py-5>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-center bg-primary text-white">
+                            <div class="card-body">
+                                <h3>Caracteristicas 1</h3>
+                                <p>
+                                    Microprocesador Zilog Z80A a 3,5 MHz (bus de datos de 8 bits y
+                bus de direcciones de 16 bits). Acompañando al procesador
+                principal estaba la ULA (Uncommitted Logic Array), encargada
+                de realizar funciones auxiliares.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-primary">
+                            <div class="card-body">
+                                <h3>Caracteristicas 2</h3>
+                                <p>
+                                    Dos configuraciones de RAM con 16 kB o 48 kB. Es interesante
+                señalar que, contrariamente a lo que el marketing podría haber
+                recomendado, no se incluían los 16 kB de ROM de cada máquina.
+                Así, la memoria total de ambos modelos era realmente de 32 y
+                64 kB.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center bg-primary text-white">
+                            <div class="card-body">
+                                <h3>Caracteristicas 3</h3>
+                                <p>
+                                    Estos 16 kB de ROM incluían un intérprete del lenguaje BASIC
+                SINCLAIR desarrollado por la compañía Nine Tiles Ltd. para
+                Sinclair y que era una evolución del que ya desarrollaran para
+                dos anteriores máquinas comerciales de la marca, el ZX80 y el
+                ZX81
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center border-primary">
+                            <div class="card-body">
+                                <h3>Caracteristicas 4</h3>
+                                <p>
+                                    Teclado de caucho integrado en el ordenador en el modelo de 16
+                kB y en la primera versión de 48 kB. El teclado de caucho
+                original oprimía dos membranas con pistas conductoras que
+                servían para detectar la presión. ZX Spectrum
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Acerca-->
+        <section class="bg-light text-center">
+            <div class="container text-center py-5">
+                <div class="row">
+                    <div class="m-5">
+                        <h3>Historia y Evolucion</h3>
+                        <p>
+                            El hardware fue diseñado por Richard Altwasser y la carcasa y
+            apariencia es un diseño de Rick Dickinson. El software (firmware
+            de la ROM), así como el profuso manual de instrucciones fue obra
+            de Steve Vickers. Todos ellos habían participado en el diseño de
+            los modelos anteriores de Sinclair, el ZX80 y el ZX81. En abril de
+            1982 aparecieron dos modelos: uno con 16 Kb a un precio de 125
+            libras (ampliable a 48 Kb por 60 libras) y otro con 48 Kb de
+            fábrica por 175 libras. Con la salida de imagen en color y con un
+            sonido muy aceptable, destacaba su pequeño tamaño y su teclado con
+            teclas de goma dura que mantenía la tradicional forma de los
+            modelos anteriores de presentar palabras completas con
+            pulsaciones. Con un precio tan ajustado, sobre todo comparado con
+            los modelos de la competencia en el momento, los pedidos se
+            dispararon y Sinclair y la empresa ensambladora de la máquina,
+            Timex, no daban abasto. En julio de 1982 ya había 30 000 pedidos
+            pendientes de atender y a finales de agosto (debido a las
+            vacaciones de verano de la plantilla que fueron escrupulosamente
+            respetadas) ya eran 40.000 pedidos retrasados con la consiguiente
+            molestia de muchos compradores. El propio Clive Sinclair hizo una
+            disculpa pública en los medios de comunicación y se comprometió a
+            tener los pedidos entregados en septiembre de ese mismo año, cosa
+            que cumplió.1​ En marzo de 1983 ya se habían vendido más de
+            200.000 unidades del ZX-Spectrum,2​ y el mercado de los
+            videojuegos domésticos se había convertido en un rentable fenómeno
+            a nivel mundial. Sinclair Research Ltd. se convirtió en apenas
+            unos meses en una de las compañías del sector más sólidas y con
+            más valor del momento. El precio de sus máquinas descendió hasta
+            99,95 libras para el ZX-Spectrum de 16 Kb, 129,95 libras para el
+            ZX-Spectrum 48 Kb y 39,95 libras para el anterior modelo, el ZX81.
+            En 1981, Altwasser y Vickers se desvincularon de Sinclair para
+            formar su propia compañía, a la cual llamarían Jupiter Cantab (una
+            abreviatura de Cantabridgian). Allí lanzaron al mercado una
+            máquina de idéntica arquitectura a la empleada en la compañía de
+            la que salían, el Jupiter Ace, que sin embargo no tuvo
+            prácticamente repercusión (apenas se comercializaron unas 5000
+            unidades3​).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Accordion-->
+        <section class="container text-center py-5">
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                            >
+                                Sistema Grafico
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong>Sistema gráfico.</strong>
+                                Una de las peculiaridades del
+              ZX Spectrum es su sistema de vídeo, al ser capaz de mostrar una
+              matriz de 256x192 pixeles, pero la resolución de color era
+              únicamente de 32x24, por lo que grupos de 8x8 píxeles compartían
+              información de color. Dicha información de color o atributos
+              consistían en: Color de fondo o paper, color de tinta o ink,
+              atributo de brillo, y un atributo flash. El color de fondo se
+              aplica a los pixels 0, y el color de tinta que se aplica a los
+              pixels 1, pudiendo seleccionarse cada uno entre siete colores.
+              El atributo brillo aumentaba el brillo de los colores (excepto
+              el negro, que no variaba), por lo que en pantalla podían
+              mostrarse en total hasta 15 colores (siete por dos niveles de
+              brillo, más el negro) El atributo flash hacía que los dos
+              atributos de color fondo/tinta se intercambiasen varias veces
+              por segundo, dando un efecto de parpadeo. Así, tenemos 256x192 =
+              49152 bits = 6144 bytes destinados al bitmap (2048 bytes para
+              cada tercio de pantalla) y 32x24 = 768 bytes dedicados al color,
+              brillo, y flash, totalizando un total de 6912 bytes. El problema
+              de tener distintas resoluciones para el bitmap y el color
+              obligaba a los programadores de juegos, especialmente durante
+              las últimas etapas de vigencia del ordenador, a adoptar
+              soluciones ingeniosas para minimizar las colisiones entre
+              colores, fenómeno conocido como "attribute clash" en el mundo
+              anglosajón. Esto era debido a que el ZX-Spectrum no fue
+              concebido en origen como una máquina de videojuegos. Si bien el
+              "attribute clash" permitía reducir el tamaño necesario para
+              vídeo a 6,75 kB, esto hacía que algunos de los gráficos
+              mostrados tuvieran una apariencia de poca calidad si el diseño
+              no era minucioso.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                            >
+                                Periféricos
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong>Periféricos.</strong>
+                                Con el paso de los años fueron
+              apareciendo diversos periféricos, como por ejemplo dispositivos
+              de almacenamiento propios (ZX Microdrive), interfaces de disco
+              (OPUS Discovery, DISCiPLE, Beta Disk), lápices ópticos, ratones
+              (AMX Mouse, Kempston Mouse, Star Mouse), impresoras (la ZX
+              Printer apareció durante 1983 a un precio inicial de 39,95
+              libras), o mandos de juego (joysticks) que podían ser conectados
+              directamente, por medio de la ZX Interface 2 o a través de otras
+              interfaces que salieron posteriormente al mercado, como las de
+              Kempston Micro Electronics.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                            >
+                                Software
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse"
+                            aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong>Software.</strong>
+                                It is El software del ZX Spectrum se
+              compone actualmente de más de 20 000 títulos.4​ A pesar de que
+              el hardware del ZX Spectrum imponía unos límites y restricciones
+              notables, su software era muy diverso, incluyendo
+              implementaciones de muchos lenguajes de programación, entre
+              ellos C,5​6​ Pascal,7​8​ Prolog (ej: micro-PROLOG),9​
+              Modula-2,10​ LISP,11​ o Forth,12​13​ diversos
+              ensambladores/desensambladores de Z80 (ej: OCP Editor/Assembler,
+              HiSoft Devpac, ZEUS Assembler, Artic Assembler), compiladores de
+              Sinclair BASIC (ej: MCoder, COLT, HiSoft BASIC), extensiones del
+              Sinclair BASIC (ej: Beta BASIC, Mega Basic), programas de bases
+              de datos (ej: VU-File14​), procesadores de texto (ej: Tasword
+              II15​), hojas de cálculo (ej: VU-Calc14​), programas de diseño
+              gráfico (ej: OCP Art Studio,16​ The Artist, Paintbox, Melbourne
+              Draw), y de modelado 3D (VU-3D17​18​), aparte de,
+              principalmente, videojuegos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Equipo-->
+        <section class="team text-center">
+            <div class="container py-5">
+                <h1 class="text-white">Equipo</h1>
+                <p class="text-white">Sinclair ZX Spectrum +128</p>
+                <div class="row">
+                    <!-- tarjetas -->
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/persona.png" class="img-fluid rounded-circle w-50%" alt="team 1">
+                                <h3>George Fugun</h3>
+                                <p class="text-center">
+                                    Más de una década de experiencia trabajando con equipos de
+                desarrollo remotos, creando productos para las principales
+                empresas de medios de comunicación, hotelería, 
+                casinos, hospitales militar entretenimiento ceo global
+                                </p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="p-4">
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="https://twitter.com/?lang=es" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="p-4">
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/persona.png" class="img-fluid rounded-circle w-50%" alt="team 1">
+                                <h3>Neega Harry</h3>
+                                <p>
+                                    Neega es líder en escalamiento de grandes organizaciones, desarrollo empresarial, formación de equipos y
+                gestión de productos.Jake se enfoca en crear influencia para los socios de X-Teams al emparejarlos con los recursos
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="p-4">
+                                            <a href="https://www.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://www.linkedin.com/" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/persona.png" class="img-fluid rounded-circle w-50%" alt="team 1">
+                                    <h3>Steve Fox</h3>
+                                    <p>
+                                        es un veterano en gestión de ingeniería que lidera equipos que trabajan en proyectos de empresas Fortune 100. En la actualidad, supervisa la IP y las plataformas
+                                        que permiten a Team crear equipos de desarrolladores de clase mundial.
+                                    </p>
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="p-4">
+                                            <a href="https://www.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://www.linkedin.com/" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img/persona.png" class="img-fluid rounded-circle w-50%" alt="team 4">
+                                    <h3>Jessica Folks</h3>
+                                    <p class="text-center">
+                                        tiene una larga trayectoria en estrategia e inversión, habiendo invertido en más de 80 empresas de tecnología y medios en etapa inicial.tiene una larga trayectoria en estrategia e inversión, habiendo invertido en más de 80 empresas de tecnología.
+                                    </p>
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="p-4">
+                                            <a href="https://www.facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-4">
+                                            <a href="https://www.linkedin.com/" target="_blank">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--Contacto-->
+                    <section class="bg-light py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <h1>Contacto</h1>
+                                    <p>Contact Us</p>
+                                    <form action="">
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <i class="fas fa-user input-group-text"></i>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="name">
+                                      </div>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                         <i class="fas fa-envelope input-group-text"></i>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="email">
+                                      </div>
+                                      <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                         <i class="fas fa-pencil-alt input-group-text"></i>
+                                        </div>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                                      </div>
+                                      <button class="btn btn-outline-primary btn-lg btn-block">
+                                        Enviar Mensaje
+                                      </button>
+                                    </form>
+                                </div>
+                                <div class="col-lg-3 align-self-center">
+                                  <img src="img/zxs.png" alt="logo" lass="img-fluid rounded-circle w-50%"class="img-fluid rounded-circle w-50%"w-20%>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer>
+                      <div class="container p-3 text-white text-center">
+                        <p>Copyright &copy; 2021</p>
+                      </div>
+                    </footer>
+                </body>
+                <!-- Bootstrap javascript -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            </html>
